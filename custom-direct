@@ -1,0 +1,7 @@
+rule-providers:
+  custom-direct:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/your-username/your-repo/master/custom-bing-rules.txt" # 你可以在这里上传一个自己的规则集
+    path: ./ruleset/custom-direct.yaml
+    interval: 86400
