@@ -1,2 +1,3 @@
-bing.com
-bing.net
+payload:
+  - '+.bing.com'
+  - '+.bing.net'
